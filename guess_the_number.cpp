@@ -53,7 +53,7 @@ int main() {
     }
     cout << "Play again ? (y/n)" << endl;
     cin >> again;
-    if(again == 'y' || agian == 'Y') {
+    if(again == 'y' || again == 'Y') {
         system("cls");
     }
 } while(again == 'y' || again == 'Y');
